@@ -1,0 +1,31 @@
+<!--Un sitemap XML est un fichier qui liste toutes les pages importantes de votre site web, fournissant des informations supplémentaires comme la date de dernière modification, la fréquence de mise à jour, et l'importance relative de chaque page. Cela aide les moteurs de recherche à mieux comprendre la structure de votre site et à indexer toutes les pages importantes. -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.example.com/</loc>
+    <lastmod>2024-06-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.example.com/about</loc>
+    <lastmod>2024-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Ajouter d'autres URLs ici -->
+</urlset>
+
+<loc> : L'URL de la page.
+<lastmod> : La date de dernière modification de la page.
+<changefreq> : La fréquence à laquelle la page est susceptible de changer (ex. daily, weekly, monthly).
+<priority> : L'importance relative de la page (0.0 à 1.0).
+
+
+
+Sitemap XML
+Objectif : Lister toutes les pages importantes de votre site pour aider les moteurs de recherche à les découvrir et les indexer plus efficacement.
+Utilisation : Inclure les pages que vous souhaitez voir apparaître dans les résultats de recherche.
+Exemple d'inclusion : Pages de contenu, pages produits, pages de services, articles de blog, etc.

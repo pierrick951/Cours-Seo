@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Disallow: /admin/
+Allow: /
+Sitemap: https://www.example.com/sitemap.xml
+
+
+Robots.txt
+Objectif : Indiquer aux moteurs de recherche quelles pages ou sections de votre site ne doivent pas être explorées ou indexées.
+Utilisation : Exclure les pages de faible importance, sensibles, ou qui n'apportent pas de valeur ajoutée au référencement.
+Exemple d'exclusion : Pages d'inscription, pages d'administration, répertoires temporaires, pages en développement, etc.

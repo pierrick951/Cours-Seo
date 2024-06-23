@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Les balises meta sont importantes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajouter une description du site -->
+    <meta name="description" content="Ceci est un exemple de bon SEO. Une bonne description du site est cruciale pour les robots de Google.">
+    <!-- Important de mettre un titre -->
+    <title>Exemple de SEO</title>
+    <!-- Ajouter une icône -->
+    <link rel="icon" href="exemple.ico">
+</head>
+
+<body>
+    <!-- Avoir une bonne sémantique -->
+    <header>
+        <!-- Pour le haut du site -->
+        <h1>Grand Titre</h1>
+        <h2>Titre Moyen</h2>
+        <h3>Autre Titre</h3>
+
+        <!-- Utilisation de role="navigation" pour définir une zone de navigation -->
+        <nav role="navigation" aria-label="Navigation Principale">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Utilisation de aria-live pour les notifications dynamiques -->
+        <div aria-live="polite">
+            <p id="notification">Vous avez un nouveau message.</p>
+        </div>
+
+        <!-- Un bouton accessible au clavier -->
+        <button onclick="alert('Bouton cliqué')">Cliquez-moi</button>
+
+        <!-- Un élément div avec tabindex pour rendre accessible -->
+        <div tabindex="0" role="button" onkeydown="if(event.key === 'Enter') { alert('Div cliqué!'); }">
+            Div Cliquable
+        </div>
+    </header>
+
+    <main>
+        <!-- Pour le contenu du site -->
+        <article>
+            <!-- Mettre des sections -->
+            <section>
+                <div>Contenu
+                    <p>Texte explicatif</p>
+                </div>
+                <!-- Pour les images, mettre des liens d'image explicites -->
+                <!-- et remplir les attributs alt le plus explicitement possible -->
+                <!-- Ajouter la taille si possible -->
+                <!-- Privilégier le format jpg ou png -->
+                <img src="chien.png" alt="Un chien jouant dans le jardin" width="600" height="400">
+            </section>
+        </article>
+    </main>
+
+    <!-- Pour le bas du site (informations, etc.) -->
+    <footer></footer>
+</body>
+
+</html>
